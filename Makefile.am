@@ -1,5 +1,5 @@
 # Copyright (C) 2006-2014 David Sugar, Tycho Softworks.
-# Copyright (C) 2015 Cherokees of Idaho.
+# Copyright (C) 2015-2017 Cherokees of Idaho.
 #
 # This file is free software; as a special exception the author gives
 # unlimited permission to copy and/or distribute it, with or without
@@ -11,7 +11,7 @@
 
 AUTOMAKE_OPTIONS = no-dependencies dist-zip
 EXTRA_DIST = autogen.sh README *.pc.in FEATURES  TODO Doxyfile BUILDS \
-	SUPPORT NOTES MODULES sipwitch.spec.in sipwitch.spec PKGBUILD.in \
+	SUPPORT NOTES MODULES sipwitch.spec.in sipwitch.spec \
 	sipwitch-config.h.cmake CMakeLists.txt directive.in cmake-abi.sh \
 	sipwitch-rpmlintrc
 
